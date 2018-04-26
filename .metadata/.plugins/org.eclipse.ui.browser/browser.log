@@ -1,0 +1,133 @@
+
+ene. 28, 2018 16:46:59.32 NEW SESSION
+ene. 28, 2018 16:46:59.32 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+ene. 28, 2018 16:46:59.32 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 28, 2018 16:46:59.32 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+ene. 28, 2018 16:46:59.32 [Child 524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 28, 2018 16:46:59.32 [Child 524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 28, 2018 16:47:29.28 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 16:47:29.28 
+ene. 28, 2018 16:47:29.28 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 16:47:29.28 
+ene. 28, 2018 16:47:32.43 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 16:47:32.43 
+ene. 28, 2018 16:47:32.43 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 16:47:32.43 
+ene. 28, 2018 17:16:26.50 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 17:16:26.50 
+ene. 28, 2018 17:16:26.50 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 17:16:26.50 
+ene. 28, 2018 17:16:44.66 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 17:16:44.66 
+ene. 28, 2018 17:16:44.66 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 17:16:44.66 
+ene. 28, 2018 17:16:56.80 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 17:16:56.80 
+ene. 28, 2018 17:16:56.80 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 17:16:56.80 
+ene. 28, 2018 17:17:05.56 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 17:17:05.56 
+ene. 28, 2018 17:17:05.56 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 17:17:05.56 
+ene. 28, 2018 18:29:11.57 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 18:29:11.58 
+ene. 28, 2018 18:29:11.58 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 18:29:11.58 
+ene. 28, 2018 18:29:36.33 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 18:29:36.33 
+ene. 28, 2018 18:29:36.33 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 18:29:36.34 
+ene. 28, 2018 18:29:50.69 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 18:29:50.69 
+ene. 28, 2018 18:29:50.69 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 18:29:50.69 
+ene. 28, 2018 18:29:54.44 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 18:29:54.44 
+ene. 28, 2018 18:29:54.44 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 18:29:54.44 
+ene. 28, 2018 20:59:08.25 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 20:59:08.26 
+ene. 28, 2018 20:59:08.26 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 20:59:08.26 
+ene. 28, 2018 20:59:28.32 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 20:59:28.32 
+ene. 28, 2018 20:59:28.32 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 20:59:28.32 
+ene. 28, 2018 21:15:51.39 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 21:15:51.39 
+ene. 28, 2018 21:15:51.39 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 21:15:51.39 
+ene. 28, 2018 21:15:56.70 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 21:15:56.71 
+ene. 28, 2018 21:15:56.71 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 21:15:56.71 
+ene. 28, 2018 21:15:58.92 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 21:15:58.92 
+ene. 28, 2018 21:15:58.92 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 21:15:58.92 
+ene. 28, 2018 21:16:06.67 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 21:16:06.67 
+ene. 28, 2018 21:16:06.67 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 21:16:06.67 
+ene. 28, 2018 21:34:13.17 IPDL protocol error: Handler returned error code!
+ene. 28, 2018 21:34:13.17 
+ene. 28, 2018 21:34:13.17 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 28, 2018 21:34:13.17 
+ene. 29, 2018 08:24:33.17 IPDL protocol error: Handler returned error code!
+ene. 29, 2018 08:24:33.20 
+ene. 29, 2018 08:24:33.20 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 29, 2018 08:24:33.20 
+ene. 29, 2018 08:24:39.96 IPDL protocol error: Handler returned error code!
+ene. 29, 2018 08:24:39.97 
+ene. 29, 2018 08:24:39.97 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 29, 2018 08:24:39.97 
+ene. 29, 2018 09:45:51.39 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 09:45:51.42 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+ene. 29, 2018 09:45:51.42 [Child 12300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 09:45:51.42 [Child 12300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 09:46:04.46 IPDL protocol error: Handler returned error code!
+ene. 29, 2018 09:46:04.46 
+ene. 29, 2018 09:46:04.46 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 29, 2018 09:46:04.46 
+ene. 29, 2018 09:47:01.51 IPDL protocol error: Handler returned error code!
+ene. 29, 2018 09:47:01.51 
+ene. 29, 2018 09:47:01.51 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 29, 2018 09:47:01.51 
+ene. 29, 2018 09:47:09.53 IPDL protocol error: Handler returned error code!
+ene. 29, 2018 09:47:09.54 
+ene. 29, 2018 09:47:09.54 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 29, 2018 09:47:09.54 
+ene. 29, 2018 09:47:11.96 IPDL protocol error: Handler returned error code!
+ene. 29, 2018 09:47:11.97 
+ene. 29, 2018 09:47:11.97 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+ene. 29, 2018 09:47:11.97 
+ene. 29, 2018 10:30:06.46 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.46 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.46 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.46 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.46 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.46 [Parent 3652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.48 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+ene. 29, 2018 10:30:06.48 [Child 13412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.48 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+ene. 29, 2018 10:30:06.48 [Child 11868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.48 [Child 11868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ene. 29, 2018 10:30:06.86 
+ene. 29, 2018 10:30:06.86 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+ene. 29, 2018 10:30:06.86 
+
+feb. 01, 2018 18:24:40.53 NEW SESSION
+feb. 01, 2018 18:24:40.54 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+feb. 01, 2018 18:24:40.58 [Parent 11056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.58 [Parent 11056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.58 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+feb. 01, 2018 18:24:40.58 [Child 7768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.58 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+feb. 01, 2018 18:24:40.58 [Child 2024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.58 [Child 2024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.58 Unable to read VR Path Registry from C:\Users\David\AppData\Local\openvr\openvrpaths.vrpath
+feb. 01, 2018 18:24:40.58 [Child 10516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.58 [Parent 11056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+feb. 01, 2018 18:24:40.91 
+feb. 01, 2018 18:24:40.91 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+feb. 01, 2018 18:24:40.91 

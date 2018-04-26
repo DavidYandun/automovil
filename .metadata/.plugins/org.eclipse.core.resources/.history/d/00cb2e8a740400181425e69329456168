@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head></h:head>
+<body>
+	<h:form>
+		<h:commandButton action="#{controllerTransaccion.CrearFactura()}"
+			value="CrearFactura" />
+	</h:form>
+	<h:form>
+		<p:panel>
+			<h:outputText value="Codigo de producto" />
+			<p:inputText value="#{controllerTransaccion.codigoProducto}" />
+			<h:outputText value="Cantidad a comprar" />
+			<p:inputText value="#{controllerTransaccion.cantidad}" />
+			<p:commandButton value="Agregar detalle"
+				actionListener="#{controllerTransaccion.actionListenerAgregarDetalle()}"
+				update="@form"></p:commandButton>
+			<p:dataTable value="#{controllerTransaccion.fcTmp.facturaDets}"
+				var="fd">
+				<p:column headerText="PK detalle"></p:column>
+				<h:outputText value="#{fd.numeroFacturaDet}" />
+				<p:column headerText="CODIGO"></p:column>
+				<h:outputText value="#{fd.producto.codigoProducto}" />
+				<p:column headerText="NOMBRE PRODUCTO"></p:column>
+				<h:outputText value="#{fd.producto.nombre}" />
+				<p:column headerText="PRECIO"></p:column>
+				<h:outputText value="#{fd.precioUnitarioVenta}" />
+				<p:column headerText="CANTIDAD"></p:column>
+				<h:outputText value="#{fd.cantidad}" />
+			</p:dataTable>
+		</p:panel>
+	</h:form>
+	<h:form>
+		<h:outputText value="Cedula del cliente" />
+		<p:inputText value="#{controllerTransaccion.cedulaCliente}" />
+		<h:outputText value="Numero de siguiente factura" />
+		<p:inputText value="#{controllerTransaccion.numeroFactura}" />
+		<p:commandButton value="guardarFactura" actionListener="#{controllerTransaccion.actionListenerGuardarFactura()}"></p:commandButton>
+	</h:form>
+</body>
+</html>

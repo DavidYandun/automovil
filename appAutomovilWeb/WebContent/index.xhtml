@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head></h:head>
+<body>
+	<p:messages autoUpdate="true"></p:messages>
+	<h:panelGrid columns="2">
+		<h:form id="form1">
+			<p:panel header="MANEJO DE AUTOMOVILES">
+				<p:panelGrid columns="2">
+					<h:outputText value="PLACA:" />
+					<p:inputText value="#{controllerAutomovil.placa}" required="true"
+						requiredMessage="Especifique la placa" />
+					<h:outputText value="AÑO:" />
+					<p:spinner value="#{controllerAutomovil.anio}" max="2016"
+						min="2010" />
+					<h:outputText value="COLOR:" />
+					<p:inputText value="#{controllerAutomovil.color}" required="true"
+						requiredMessage="Indique el color" />
+					<h:outputText value="MARCA:" />
+					<p:inputText value="#{controllerAutomovil.marca}" />
+					<p:commandButton value="Agregar" icon="ui-icon-disk"
+						update="@form,:form2:tabla1"
+						actionListener="#{controllerAutomovil.actionListenerAgregar()}">
+					</p:commandButton>
+				</p:panelGrid>
+			</p:panel>
+		</h:form>
+		<h:form id="form2">
+			<p:panel header="LISTA DE REGISTROS">
+				<p:dataTable value="#{controllerAutomovil.lista}" var="a"
+					id="tabla1">
+					<p:column headerText="PLACA">
+						<h:outputText value="#{a.placa}" />
+					</p:column>
+					<p:column headerText="AÑO">
+						<h:outputText value="#{a.anio}" />
+					</p:column>
+					<p:column headerText="COLOR">
+						<h:outputText value="#{a.color}" />
+					</p:column>
+					<p:column headerText="MARCA">
+						<h:outputText value="#{a.marca}" />
+					</p:column>
+					<p:column headerText="GASOLINA" style="text-align:right">
+						<h:outputText value="#{a.gasolina}" />
+						<f:facet name="footer">
+							<h:outputText value="#{controllerAutomovil.totalGasolina}" />
+						</f:facet>
+					</p:column>
+					<p:column headerText="ALQUILADO">
+						<h:outputText value="#{a.alquilado}" />
+					</p:column>
+					<p:column headerText="ALQUILAR">
+						<p:commandButton icon="ui-icon-check" update="@form"
+							actionListener="#{controllerAutomovil.actionListenerAlquilarFila(a)}"></p:commandButton>
+					</p:column>
+					<p:column headerText="DESALOJAR">
+						<p:commandButton icon="ui-icon-check" update="@form"
+							actionListener="#{controllerAutomovil.actionListenerDesalojarFila(a)}"></p:commandButton>
+					</p:column>
+					<p:column headerText="ELIMINAR">
+						<p:commandButton icon="ui-icon-close" update="@form"
+							actionListener="#{controllerAutomovil.actionListenerEliminar(a.placa)}"></p:commandButton>
+					</p:column>
+					<p:column headerText="EDITAR">
+						<p:commandButton icon="ui-icon-pencil" update="form4"
+							onclick="PF('dialogo1').show();"
+							actionListener="#{controllerAutomovil.actionListenerCargar(a)}"></p:commandButton>
+					</p:column>
+				</p:dataTable>
+				<p:commandButton value="RESET" icon="ui-icon-refresh"
+					update="tabla1"
+					actionListener="#{controllerAutomovil.actionListenerReset()}"></p:commandButton>
+			</p:panel>
+		</h:form>
+		<h:form id="form3">
+			<p:panel header="ALQUILER" >
+				<h:outputText value="Placa:" />
+				<h:inputText value="#{controllerAutomovil.placa}" required="true" />
+				<p:commandButton icon="ui-icon-check" update=":form2:tabla1"
+					actionListener="#{controllerAutomovil.actionListenerAlquilar()}"
+					value="Alquilar" />
+				<p:commandButton icon="ui-icon-check" update=":form2:tabla1"
+					actionListener="#{controllerAutomovil.actionListenerDesalojar()}"
+					value="Desalojar" />
+			</p:panel>
+		</h:form>
+	</h:panelGrid>
+	<p:dialog header="Edición de automovil" widgetVar="dialogo1"
+		id="dialogo1" modal="true" height="200">
+		<h:form id="form4">
+			<p:messages autoUpdate="true"></p:messages>
+			<p:panelGrid columns="2">
+				<h:outputText value="PLACA:" />
+				<h:outputText value="#{controllerAutomovil.placa}" />
+				<h:outputText value="COLOR:" />
+				<p:inputText value="#{controllerAutomovil.color}" required="true" />
+				<h:outputText value="GASOLINA:" />
+				<p:inputText value="#{controllerAutomovil.gasolina}" required="true" />
+				<p:commandButton value="Actualizar" update="@form,:form2:tabla1"
+					actionListener="#{controllerAutomovil.actionListenerActualizar()}"></p:commandButton>
+			</p:panelGrid>
+		</h:form>
+	</p:dialog>
+	<h:outputLabel value="Editado por: Andrés Yandún" />
+</body>
+</html>
